@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Godiyal - Resume</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #3498db;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 15px;
+        }
+        p, ul {
+            line-height: 1.6;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            opacity: 0; /* Initial opacity for fade effect */
+            transform: translateY(20px); /* Start with a slight upward offset */
+            animation: fadeInUp 0.6s forwards; /* Animation effect */
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skills div {
+            background: #3498db;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1; /* Final opacity */
+                transform: translateY(0); /* Final position */
+            }
+        }
+        /* Add slide-in animation for sections */
+        @keyframes slideIn {
+            from {
+                opacity: 0; /* Start fully transparent */
+                transform: translateX(-100%); /* Slide in from the left */
+            }
+            to {
+                opacity: 1; /* Fully visible */
+                transform: translateX(0); /* End at original position */
+            }
+        }
+        /* Applying slideIn animation for different sections */
+        .section:nth-child(odd) {
+            animation: slideIn 0.6s forwards; /* For odd sections */
+        }
+        .section:nth-child(even) {
+            animation: slideIn 0.6s forwards; /* For even sections */
+            animation-delay: 0.3s; /* Slight delay for even sections */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Suraj Godiyal</h1>
+    <div class="contact-info">
+        <p>7042080446 | <a href="mailto:surajgodiyal91@gmail.com">surajgodiyal91@gmail.com</a></p>
+        <p>Braham Puri, Pankha Road, South-West Delhi - 110046, India</p>
+    </div>
+</header>
+
+<main>
+
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p>I am committed to a path of ongoing self-improvement and professional advancement. Seeking to utilize my current skills and knowledge, I aim to proactively explore opportunities for expanding expertise. Dedicated to pushing boundaries through innovation and consistent growth.</p>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div>Computer Skills</div>
+            <div>Interpersonal Skills</div>
+            <div>Fast Learner</div>
+            <div>Time Management</div>
+            <div>Resilience</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Course</h2>
+        <ul>
+            <li><strong>English Speaking and Personality Development</strong>, Freedom Empliability Academy (2/2021 - 3/2022)</li>
+            <li><strong>Program In Professional Edge</strong>, NIIT Foundation In Partnership With ATC India</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Experience</h2>
+        <h3>Intern</h3>
+        <p>InTheBoxs | 12/2023 - Present</p>
+        <p>As an intern, I lead and anchor science shows and art & craft activities, representing the company at events. I conduct engaging science and art & craft activities for kids aged 4 to 12 while collaborating with team members to execute events seamlessly.</p>
+
+        <h3>Volunteer</h3>
+        <p>Freedom Empliability Academy | 2/2023 - 7/2023</p>
+        <p>Experienced volunteer with a track record of leading 100+ sessions for students aged 17 and above. Specialized in facilitating Personality Development and English-based activities aligned with the FEA curriculum.</p>
+
+        <h3>Home Tutor</h3>
+        <p>New Delhi | 3/2020 - 10/2023</p>
+        <p>Dedicated home tutor providing personalized support to enhance learning outcomes for students in grades 1-10, fostering a conducive educational environment.</p>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <h3>Bachelor Of Arts (Honours) English</h3>
+        <p>Indira Gandhi National Open University, Delhi (7/2022 - Present)</p>
+
+        <h3>Senior Secondary Education</h3>
+        <p>G. S. B. V D-Block Janak Puri, CBSE (4/2021 - 6/2022)</p>
+        <p>Subjects: Physics, Chemistry, Mathematics, Biology (PCMB)</p>
+
+        <h3>Secondary Education</h3>
+        <p>G. S. B. V D-Block Janak Puri, CBSE (4/2019 - 5/2020)</p>
+        <p>Subjects: Hindi, English, Maths, Science, Social Science</p>
+    </div>
+
+    <div class="section">
+        <h2>Extra Curricular</h2>
+        <ul>
+            <li>Participant in the National Workshop at Maitreyi College</li>
+            <li>Awarded VMC Scholarship Based on Test Performance</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Net Surfing</li>
+            <li>Reading</li>
+            <li>Football</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Languages</h2>
+        <ul>
+            <li>English</li>
+            <li>Hindi</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Courses Completed (MOOC)</h2>
+        <ul>
+            <li>Dynamic Public Speaking</li>
+            <li>Basic Excel</li>
+            <li>Email Writing</li>
+            <li>Mindfulness</li>
+            <li>Effective Presentations</li>
+            <li>Business Email</li>
+        </ul>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 Suraj Godiyal</p>
+</footer>
+
+</body>
+  </html>
